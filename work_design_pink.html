@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- open graphic -->
+  <meta property="og:url" content="https://inae95.github.io/portfolio/"> <!--포트폴리오 사이트-->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="inae portfolio">
+  <meta property="og:image" content="./image/meta_image_potfolio.png"> <!--포트폴리오 메인페이지 이미지-->
+  <meta property="og:description" content="반갑습니다. inae 포트폴리오 사이트입니다.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="inae portfolio">
+  <meta name="twitter:url" content="https://inae95.github.io/portfolio/"> <!--github url 포폴 사이트-->
+  <meta property="twitter:image" content="./image/meta_image_potfolio.png">
+  <meta property="twitter:description" content="반갑습니다. inae 포트폴리오 사이트입니다.">
+
+  <!-- inpor -->
+  <meta name="Keyword" content="html, css3, javascript, portfolio, website">
+  <meta name="Data" content="2020-11-01">
+  <!-- 검색엔진 봇 -->
+  <meta name="description" content="portfolio">
+  <meta name="Author" content="portfolio">
+
+  <title>inae portfolio</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon_16.ico" sizes="16x16">
+  <link rel="shortcut icon" href="./favicon_32.ico" sizes="32x32">
+  <!-- prefixfree -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- font -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+  <!-- style -->
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/navbar.css">
+  <link rel="stylesheet" href="./css/work_list.css">
+  <link rel="stylesheet" href="./css/work_list_tablet.css">
+  <link rel="stylesheet" href="./css/work_list_mobile.css">
+
+
+
+</head>
+<body>
+  <!--navbar-->
+  <div class="navbar">
+    <div class="container clearfix">
+      <div class="logo">
+        <a href="./index.html">inae portfolio</a>
+      </div>
+      <div class="togglebtn">
+        <i class="fa fa-bars open_btn" aria-hidden="true"></i>
+      </div>
+      <nav>
+        <ul>
+          <li class="close_box">
+            <i class="fa fa-times close_btn" aria-hidden="true"></i>
+          </li>
+          <li class="eng navBlack"><a href="./index.html">Home</a></li>
+          <li class="eng navBlack"><a href="./about.html">About</a></li>
+          <li class="eng navBlack"><a href="./work.html">Work</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="container">
+      <div class="work_atc_tit">
+        <h1>핑크 리본 마라톤&nbsp;<span class="eng">PINK RUN</span>
+        </h1>
+        <h2>&ensp;인포그래픽, 정보디자인</h2>
+        <p>기여도: <span class="eng">100%</span></p>
+      </div>
+      <div class="work_atc_txt">
+        <h3>핑크 리본 마라톤에 대한 캠페인 일정에 대한 것을 나타낸 것이다.<br>
+        대표적인 컬러와 리본을 활용해서 제작되었습니다.</h3>
+      </div>
+      <div class="work_atc_img">
+        <img src="./images/work_마라톤-min.jpg" alt="핑크 리본 마라톤" title="핑크 리본 마라톤">
+      </div>
+
+      <!-- 뒤로가기 버튼 -->
+      <div class="back_btn">
+        <a href="./work.html">
+          <i class="fa fa-long-arrow-left" aria-hidden="true">&ensp;</i>뒤로가기
+        </a>
+      </div>  
+
+      <!-- 위로가기 버튼 -->
+      <div class="up_btn">
+      </div>
+    </div>
+  </div>
+</body>
+<!-- nav 기본-->
+<script src="./js/navbar_black.js"></script>
+<script>
+  var upBtn = document.querySelector(".up_btn");
+
+  upBtn.addEventListener('click',function(){
+    window.scrollTo(0,0);
+  })
+</script>
+</html>
