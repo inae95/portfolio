@@ -1,0 +1,130 @@
+@charset "utf-8";
+
+/* nav */
+.logo{
+  background-position:0 0;
+}
+.navbar{
+  background-color: white;
+}
+nav>ul>li>a{
+  font-weight:600; color:#333333;
+}
+nav .eng>a{
+  color: black;
+}
+.fa-bars, .fa-times{
+  color:black;
+}
+
+.wrap .container{
+  width:90%; margin:0 auto; max-width:1400px;
+}
+
+
+.about_me{
+  padding-bottom:90px; margin: 0 auto;
+}
+.about_me_tit{
+  padding:150px 0 70px 0;
+}
+.about_me_tit h1{
+  font-weight:500; font-size:1.5rem; line-height:35px; padding-bottom:20px;
+}
+.about_me_tit p{
+  position:relative;
+  color:#666666
+}
+.about_me_tit p::after{
+  content:''; display:block; position:absolute; top:25px; left:263px;
+  width:90px; height:1px; border-bottom:1px solid #666666;
+}
+
+.about_me_list{
+  display:flex; flex-flow:row wrap; justify-content:space-between; margin:0 auto;
+  max-width:1200px;
+
+}
+.about_me_list .list_num{
+  /* 550px */
+  width:35.3134328358209%; padding-bottom:60px;
+}
+.about_me>.about_me_list>.list_num>.list_pic{
+  width:30px; height:30px;
+  background:url(../images/about_icn.png) no-repeat; background-size:cover; background-position:-35px 0;
+}
+.about_me>.about_me_list>.list_num>h2{
+  font-weight:600; font-size:1.1rem; padding:16px 0 16px 0;
+}
+.about_me>.about_me_list>.list_num>h3{
+  font-weight:300; font-size:1rem; line-height:25px;
+}
+.about_me>.about_me_list>.list_num:nth-of-type(2)>.list_pic{
+  width:32px; height:30px;
+  background:url(../images/about_icn.png) no-repeat; background-size:cover; background-position:-103px 0;
+}
+.about_me>.about_me_list>.list_num:nth-of-type(3)>.list_pic{
+  width:30px; height:30px;
+  background:url(../images/about_icn.png) no-repeat; background-size:cover; background-position:0 0;
+}
+.about_me>.about_me_list>.list_num:nth-of-type(4)>.list_pic{
+  width:30px; height:30px;
+  background:url(../images/about_icn.png) no-repeat; background-size:cover; background-position:-70px 0;
+}
+
+/* skill */
+.skill{
+  padding:100px 0; background-color:#f7f7f7;
+}
+.skill_tit{
+  text-align:center; padding-bottom:150px;
+}
+.skill_tit h4{
+  font-weight:500; font-size:1.5rem; line-height:40px; padding-bottom:30px;
+}
+.skill_tit p{
+  font-weight:400; color:#666666;
+}
+.skill_list{
+  display:flex; flex-flow:row wrap; margin:0 auto; justify-content:space-around;
+  max-width:780px;
+}
+.skill_list .skill_num{
+  width:25%;
+  text-align:center; padding:0 0 60px 0;
+}
+.skill_list .skill_num:nth-child(5),
+.skill_list .skill_num:nth-child(6),
+.skill_list .skill_num:nth-child(7),
+.skill_list .skill_num:nth-child(8){
+  padding-bottom:0;
+}
+.skill_list .skill_num img{
+  width:32px; height:32px; padding-bottom:16px;
+}
+.skill_list .skill_num p{
+  font-weight:600; font-size:1rem; letter-spacing:0;
+}
+
+/* footer */
+footer{
+  background-color:#283045;
+}
+.footer_tit{
+  padding:80px 0;
+}
+footer h5{
+  width:440px; padding-top:20px; margin:0 auto;
+  font-weight:300; font-size:1rem; color:white; text-align:center;
+}
+.down_btn{
+  display: block; margin:0 auto;
+  width:190px; height:50px; padding:0; border:none; border-radius:50px; background-color:#f5d62a; outline:none;
+}
+.down_btn a{
+  display:block;
+  width:190px; height:50px; font-weight:600; font-size:1.1rem; line-height:50px;color:#3a414f;
+}
+.down_btn:hover{
+  transform:scale(1.1); transition:.3s; background-color:#d6b811;
+}

@@ -1,0 +1,9 @@
+@charset "utf-8";
+
+@media (max-width:768px){
+  /* nav */
+  .logo{
+    transform: scale(0.8);
+    margin-left: -5px;
+  }
+}

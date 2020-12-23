@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/* mouse pointer */
+.mouse{
+  width:40px; height:40px;
+  background-color:#f5d62a;
+  position:absolute; top:0; left:0;
+  border-radius: 50px;
+  z-index: 99999px;
+  display:none;
+}

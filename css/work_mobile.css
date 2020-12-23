@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+@media (max-width:600px){
+  /* nav */
+  .fa-times{
+    display:block;
+  }
+  
+  
+  .work_list_tit{
+    width:100%;
+    padding-bottom:20px;
+  }
+  .work_list li{
+    width:100%;
+    padding-bottom:80px;
+  }
+  .work_list li:nth-child(2){
+    padding-top:0;
+  }
+}

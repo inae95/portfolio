@@ -1,0 +1,119 @@
+@charset "utf-8";
+
+/* nav */
+.logo{
+  background-position:0 0;
+}
+.navbar{
+  background-color: white;
+}
+nav>ul>li>a{
+  font-weight:600; color:#333333;
+}
+nav .eng>a{
+  color: black;
+}
+.fa-times{
+  display:none;
+}
+.fa-bars, .fa-times{
+  color:black;
+}
+
+
+
+.wrap .container{
+  width:90%; margin:0 auto;
+  max-width:1200px;
+}
+
+.work_atc_tit{
+  padding:150px 0 40px 0;
+}
+.work_atc_tit h1{
+  font-weight:600; font-size:2rem; padding-bottom:30px;
+}
+.work_atc_tit h1 .eng{
+  font-size:1rem;
+}
+.work_atc_tit h2{
+  position:relative;
+  font-size:1.2rem; padding-bottom:10px;
+}
+.work_atc_tit h2::after{
+  position:absolute; content:''; display:block; top:5px; left:0;
+  width:20px; height:20px; border-left:2px solid #333333;
+}
+.work_atc_tit p{
+  font-weight:500; font-size:15px;; color:#666;
+}
+.work_atc_tit p span{
+  font-weight:600;
+}
+.work_atc_txt h3{
+  line-height:24px; border-bottom:1px solid #ccc; padding-bottom:50px; margin-bottom:50px;
+}
+.work_atc_img{
+  width:100%; padding-bottom:100px; margin:0 auto;
+}
+
+img{
+  width:100%;
+  -ms-interpolation-mode:bicubic; 
+  image-rendering:unset;
+}
+.sub_btn{
+  box-sizing:border-box;
+  width:110px; padding:0 0; margin-bottom:30px; border:1px solid #334354; border-radius:2px;
+}
+.sub_btn a{
+  display:block;
+  width:100%; padding:6px 0; font-weight:600; font-size:1rem; color:#333;
+}
+.sub_btn a:hover{
+  background-color:#334354; color:white;
+}
+.sub_btn:nth-child(2){
+  margin-right:15px;
+}
+
+
+/* back btn */
+.back_btn{
+  width:130px;
+  font-size:1rem; font-weight:600; margin-bottom:80px; color:#334354; border-radius:50px; text-align:center;
+  transition:0.3s;
+}
+.back_btn:hover{
+  background-color:rgb(232, 232, 232);
+}
+.back_btn a{
+  display:block;
+  width:100%; height:100%;padding:8px 0; 
+}
+.back_btn a:hover{
+  color:#334354;
+}
+
+/* up btn */
+.up_btn{
+  position:fixed;
+  bottom:30px; right:20px; z-index:50;
+  width:50px; height:50px; color:#334354; background-color:rgba(0,0,0,0.2); border-radius:50px;
+  transition:0.5s; cursor:pointer;
+}
+.up_btn::after{
+  display:block; content:''; position:absolute; top:19px; left:24px;
+  height:15px; border-left:2px solid #334354;
+}
+.up_btn::before{
+  display:block; content:''; position:absolute; top:18px; left:20px;
+  width:8px; height:8px; border:2px solid #334354; border-bottom:transparent; border-left:transparent; transform:rotate(-45deg)
+}
+.up_btn i{
+  display:block;
+  font-size:1rem;
+}
+.up_btn:hover{
+  background-color:#f5d62a;
+}

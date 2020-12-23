@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+@media (max-width:600px){
+  .main{
+    height:auto; margin-bottom: 100px;
+  }
+  h1{
+    font-size:6vw; line-height:10vw;
+  }
+  h2{
+    font-size:13.5px; line-height:35px
+  }
+  .main_mail_txt p:nth-child(2){
+    font-size: 16px;
+  }
+  /* myinfo */
+  .myinfo{
+    padding-bottom:150px;
+  }
+  .myinfo_ani{
+    font-size:14.5px;
+  }
+  .myinfo h3{
+    font-size:28px
+  }
+  .myinfo_txt{
+    padding-bottom:40px;
+  }
+  .myinfo h4{
+    font-size:15px;
+  }
+  /* ican */
+  .ican{
+    padding-bottom:150px;
+  }
+  .ican_tit{
+    padding-right:0;
+  }
+  .ican .ican_tit .line{
+    width:40px;
+  }
+  .ican_tit h5, .work_tit h5{
+    width:280px; font-size:22px; padding-right:0;
+  }
+  .ican_tit h5 span::before{
+    width:82%; height:25px;
+  }
+  .ican_list{
+    padding-bottom:40px;
+  }
+  .ican_list_tit h6, .work_txt p{
+    font-size: 1rem;
+  }
+  .ican_list_txt p{
+    font-size:15px;
+  }
+  .ican_txt{
+    width:100%; padding:80px 0 0 0;
+  }
+  .btn_skill{
+    width: 100%;
+  }
+
+  /* work */
+  .work_list{
+    width:100%;
+    margin:0;
+  }
+  .work .work_pic{
+    padding: 0 20px 20px 20px;
+  }
+
+  .work_tit p{
+    font-size:15px;
+  }
+  .work_txt{
+    padding-bottom:80px;
+  }
+  .work_txt p:nth-child(2){
+    font-size:14px;
+  }
+  .work .work_pic>a>.pic{
+    width:60px; height:60px; margin: 0 auto;
+  }
+  .work_name>p:nth-child(1){
+    font-size:16px;
+  }
+
+  .footer_tit{
+    font-size:1.8rem; padding:150px 0;
+  }
+  /* footer event */
+  .footer_tit>a.on3{
+    font-size:2.8rem; color:#f5d62a
+  }
+  .footer_tit_ps p{
+    padding-top:30px;
+  }
+}
+
+
+@media (min-width:600px){
+  .close_btn{
+    display:none;
+  }
+}
+
+/* 모바일 내비 색상 */
+@media (max-width:600px){
+  nav .eng>a, .fa-times{
+    color:#333 !important;
+  }
+}

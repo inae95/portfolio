@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/* nav */
+.logo{
+  background-position:0 0;
+}
+.navbar{
+  background-color: white;
+}
+nav>ul>li>a{
+  font-weight:600; color:#333333;
+}
+nav .eng>a{
+  color: black;
+}
+.fa-times{
+  display:none;
+}
+.fa-bars, .fa-times{
+  color:black;
+}
+
+
+.wrap{
+  margin:0 auto;
+}
+.container{
+  /* 1140px */
+
+  width:85.666666666%; margin:0 auto;
+  max-width:1300px;
+}
+
+/* work */
+.work_list{
+  /* display:flex; flex-flow:row wrap; justify-content:space-between; */
+  padding-top:150px;
+}
+.work_list li{
+  float: left;
+  width:46%; padding-bottom:150px;
+}
+.work_list li:nth-child(2n){
+  float: right;
+}
+.work_list .work_item{
+  height:100%;
+}
+.work_list li:nth-child(2){
+  padding-top:150px;
+}
+
+.work_list_header{
+  display:flex; flex-flow:row wrap; justify-content:space-between;
+  padding-bottom:30px;
+}
+.work_list_tit{
+  width:30%;
+}
+.work_list_txt{
+  width:55%;
+}
+.work_list_tit h1{
+  font-weight:700; font-size:1.4rem;
+}
+.work_list_txt h2{
+  padding-bottom:16px;
+  font-weight:400; font-size:1rem;
+}
+.work_list_txt p{
+  font-weight:500; font-size:13px; color:#666666;
+}
+.work_list figure{
+  width:100%; height:100%
+}
+.work_list figure img{
+  width:100%; height:100%
+}
+.work_list figure img:hover{
+  opacity:0.5; transition:0.3s;
+}
+.work_list figure a{
+  width:100%; height:100%;
+}
+
+.design_tit{
+  font-size:1rem; font-weight:600; padding-bottom:50px; color: #696f73;
+  text-decoration:underline;
+}
